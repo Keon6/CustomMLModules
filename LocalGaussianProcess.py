@@ -7,7 +7,7 @@ from sklearn.gaussian_process.kernels import (Matern, RationalQuadratic,
 from sklearn.metrics import roc_auc_score
 from sklearn.neighbors import BallTree
 import numpy as np
-from Modules.Errors import KernelTypeError
+from CustomErrors import KernelTypeError
 
 
 class LocalGaussianProcessClassifier:
